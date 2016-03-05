@@ -17,17 +17,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".main_frag"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".main_frag"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".greetingsfragment"/>
+
+        <activity android:name=".placesfragments"/>
+
+        <activity android:name=".generalconvos"/>
+
+        <activity android:name=".foodeat"/>
+
+        <activity android:name=".transportationfragment"/>
+
+        <activity android:name=".numbersfragments"/>
+
+
     </application>
 
 </manifest>
