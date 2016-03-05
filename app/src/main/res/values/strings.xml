@@ -21,4 +21,10 @@
     <string name="grammer2">
         Sheng vocabulary can vary significantly within Kenya\'s various subdivisions and the larger African Great Lakes region, and even between neighbourhoods in Nairobi. Many youth living in the capital often use the argot as their everyday mode of communication rather than Swahili or English.
     </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
