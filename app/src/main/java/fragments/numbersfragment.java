@@ -19,7 +19,7 @@ public class numbersfragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 
-        View rootView = inflater.inflate(R.layout.greetings_frag, container, false);
+        View rootView = inflater.inflate(R.layout.numbers, container, false);
 
         return rootView;
 

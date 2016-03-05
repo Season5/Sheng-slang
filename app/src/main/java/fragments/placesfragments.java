@@ -19,7 +19,7 @@ public class placesfragments extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 
-        View rootView = inflater.inflate(R.layout.greetings_frag, container, false);///change here
+        View rootView = inflater.inflate(R.layout.places_frag, container, false);///change here
 
         return rootView;
 
