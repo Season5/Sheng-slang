@@ -1,6 +1,7 @@
 package com.example.onikah.shengslang;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -22,7 +23,7 @@ public class SplashScreen extends Activity {
                     }catch(InterruptedException e){
                         e.printStackTrace();
                     }finally{
-                        Intent intent = new Intent(SplashScreen.this,MainActivity.class);
+                        Intent intent = new Intent(SplashScreen.this,main_frag.class);
                         startActivity(intent);
                     }
                 }
@@ -36,6 +37,7 @@ public class SplashScreen extends Activity {
             super.onPause();
             finish();
         }
+
 
 
 }
